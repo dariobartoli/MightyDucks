@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fondo {
+    width: 90%;
+    background-color: rgb(27, 111, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#000f94, #3bd5ff);
+}
+
+header {
+/*     background-color: rgb(38, 185, 221); */
+    background: radial-gradient(#7fd7fa, #108ec0);
+    width: 95%;
+    height: 35vh;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px black solid;
+}
+
+.head {
+    height: 100%;
+    min-width: 10%;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+header>.head>h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+/*     -webkit-text-stroke: rgb(0, 0, 0) 2px; */
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 4px 20px;
+    border-radius: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header>.head>nav {
+    display: flex;
+    gap: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barra {
+    background-color: rgb(73, 204, 236);
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.barra:hover {
+    background-color: rgba(0, 133, 173, 0.534);
+}
+
+#active {
+    background-color: rgb(0, 133, 173);
+    transform: scale(1.2);
+    border-radius: 10px;
+    border: 0.1rem white solid;
+    font-weight: bold;
+}
+
+.imagen1{
+    width: auto;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+    border-left: 1px black solid;
+}
+
+main{
+    margin-top: 1rem;
+/*     background-color: rgb(38, 185, 221); */
+    background: radial-gradient(#7fd7fa, #108ec0);
+    width: 95%;
+    min-height: 44vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(37, 172, 226);
+    border-bottom: 1px black solid;
+    padding: 0.5rem 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    width: 180px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 1rem 0 1rem 0;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.text{
+    width: 47%;
+    background-color: rgba(73, 203, 236, 0.452);
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+.contenido>article>h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido>article>p {
+    margin-top: 0.2rem;
+    text-indent: 1.2rem;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fotos{
+    margin-left: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ubications {
+    margin-top: 1.5rem;
+    background-color: rgb(37, 173, 226);
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.mapa {
+    align-self: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    justify-content: space-around;
+}
+
+.map1 {
+    margin-right: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.map1>h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+    background-color: rgb(37, 173, 226);
+    border-radius: 1rem;
+}
+
+iframe {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    border: 1px black solid;
+}
+
+.foto1 {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 420px;
+    border-radius: 1rem;
+    border: black solid 1px;
+}
+
+footer {
+    margin-top: 1rem;
+/*     background-color: rgb(26, 158, 190); */
+    background: radial-gradient(#38bfd1, #1985af);
+    width: 95%;
+    height: 15vh;
+    border-radius: 1rem;
+    border: 1px black solid;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+article>h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.cohort {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 2px 9px 2px 9px;
+    border-radius: 0.5rem;
+}
+
+.redes>h4 {
+    text-decoration: underline;
+}
+
+.redeslogo {
+    width: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.redes {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.redes2 {
+    margin-top: 0.5rem;
+}
+
+.cohort1 {
+    display: flex;
+    gap: 0.1rem;
+    justify-content: center;
+}
+
+.mindhub {
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* Rules and Policies */
+
+dl>dt {
+    margin-top: 1.7rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+dl {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titulista {
+    font-weight: 600;
+}
+
+dd>ol>li {
+    margin-bottom: 1rem;
+}
+
+.order2 {
+    list-style-type: lower-alpha;
+    line-height: 19px;
+}
+
+.rulesparrafo2 {
+    line-height: 19px;  
+}
+
+ol>li {
+    list-style-position: inside;
+}
+
+dd>ul>li {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 2.5rem;
+}
+
+.rulesparrafo {
+    text-indent: 1.4rem;
+}
+
+.titulos {
+    color: rgba(26, 25, 25, 0.932);
+}
+
+
+/* TABLES */
+
+table, th{
+    border-collapse: collapse;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(15, 161, 206);
+}
+
+td{
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(96, 223, 255);
+}
+
+.ubication {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1px 5px;
+    border-radius: 0.7rem;
+}
+
+.ubication:hover {
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+td:hover {
+    background-color: rgb(61, 184, 214);
+}
+
+.column1 {
+    background-color: rgb(77, 187, 214);
+}
+
+.columna1 {
+    width: 10rem;
+}
+
+.columna2 {
+    width: 10rem;
+}
+
+
+caption {
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 0.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 1.6rem;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenido>p {
+margin-top: 1rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* FORMULARIOS */
+
+form {
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field1 {
+    text-align: center;
+}
+
+.field2, .field1, .field3, .field4, .field5, .field7, .field9, .field11, .field12 {
+    display: flex;
+}
+
+.field3, .field4, .field5, .field1 {
+    justify-content: space-between;
+}
+
+.field1, .field2, .field3, .field4, .field5, .field6, .field8, .field9, .field10, .field11, .field12 {
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.field7, .field9, .field11 {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.field7 {
+    max-height: 80px;
+    width: 55%;
+}
+
+.field9 {
+    max-height: 50px;
+    width: 58%;
+}
+
+.field11 {
+    max-height: 90px;
+    width: 50%;
+}
+
+.field12 {
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+    width: 250px;
+    height: 140px;
+}
+
+.input1, .input3 {
+    width: 200px
+}
+
+.input2 {
+    width: 515px;
+    margin-left: 6px;
+}
+
+.input3 {
+    margin-right: 135px;
+}
+
+.input4 {
+    margin-right: 120px;
+}
+
+.span2, .span3{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.span3 {
+    margin-top: 0.6rem;
+}
+
+.formtittle, .formtittle1{
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.formtittle1{
+    font-size: 1.7rem;
+    margin-bottom: 0.6rem;
+}
+
+.botonenviar {
+    width: 100px;
+    margin-top: 1rem;
+    height: 30px;
+}
